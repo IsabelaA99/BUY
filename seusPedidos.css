@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.opiniao-btn {
+    background-color: #e0e0e0;
+    color: #555;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.opiniao-btn:hover {
+    background-color: #5d17ea;
+    color: #fff;
+}
+
+.pedido {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+}
+
+.pedido p {
+    margin: 3px 0;
+    color: #333;
+
+}
+
+.pedido .produto-info {
+    display: flex;
+    align-items: flex-start;
+}
+
+.img-produto img{
+    text-align: center; /* Centraliza horizontalmente no eixo inline */
+    width: 80px;
+    height: 95px;
+    margin:  5px 15px;
+    border-radius: 5px;
+}
+
+.centered {
+    display: block; /* Remove o comportamento inline padrão da imagem */
+    margin: 0 auto; /* Centraliza horizontalmente */
+}
+
+.espaco {
+    height: 105px;
+    width: 360px;
+}
+
+.espaco.alinhar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.actions {
+    margin-top: 10px; /* Reduzido para aproximar os botões ao conteúdo */
+}
+
+.pedido .actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.btn-ver-compra, .secondary {
+    width: 150px;
+    background-color: #5d17ea;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-align: center;
+}
+.secondary {
+    background-color: #e0e0e0;
+    color: #555;
+}
+.btn-ver-compra:hover {
+    background-color: #5d17eadc;
+}
+
+.secondary:hover {
+    background-color: #5d17eadc;
+    color: #fff;
+}
+
+.pedido .actions {
+    display: flex;
+    flex-direction: column; /* Alinha os botões verticalmente */
+    align-items: flex-end;  /* Alinha os botões à direita */
+    gap: 10px;              /* Adiciona um espaçamento entre os botões */
+}
+
+.linha-separacao {
+    width: 100%;
+    height: 2px; /* Espessura da linha */
+    background-color: #e0e0e0; /* Cor da linha */
+    margin: 10px 0 5px 0; /* Espaço: 10px acima e 20px abaixo */
+}
+
+.loja-info {
+    text-align: center;
+    color: #333;
+    margin: 15px 0; /* Mantém o espaçamento entre o texto e os botões */
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.produto-info p:nth-child(1),
+.produto-info p:nth-child(2) {
+    margin-bottom: 5px; /* Espaçamento leve entre os dois primeiros parágrafos */
+}
+
+.produto-info p:nth-child(3),
+.produto-info p:nth-child(4) {
+    margin-top: 10px; /* Espaçamento maior entre os dois primeiros e os dois últimos parágrafos */
+    margin-bottom: 5px; /* Espaçamento leve entre os dois últimos parágrafos */
+}
+
+.ent{
+    color: green;
+}

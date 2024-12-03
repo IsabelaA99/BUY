@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buy - Lista de Desejos</title>
+  <link rel="stylesheet" href="./src/css/home.css">
+  <link rel="stylesheet" href="./src/css/favoritos.css">
+
+  <!-- BOOTSTRAP -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!-- BOOTSTRAP -->
+
+  <script src="./src/js/menu.js" defer></script>
+</head>
+<body>
+    <header>
+        <!-- Seção do menu -->
+        <div class="menu-container">
+            <div class="btn-menu" id="btn-menu">
+                <i class="bi bi-list"></i>
+            </div>
+
+            <div class="menu" id="menu">
+                <nav class="menu_content">
+                    <ul class="menu-items">
+                        <li><a href="suaConta.html">Minha conta</a></li>
+                        <li><a href="pedidos.html">Seus pedidos</a></li>
+                        <li><a href="erro.html">Suporte ao cliente</a></li>
+                        <li><a href="erro.html">Configurações</a></li>
+                    </ul>
+    
+                    <div class="btn-sair">
+                        <a href="login.html">
+                            <button>Sair da conta</button>
+                        </a>
+                    </div>
+                </nav>
+            </div><!--menu-->
+    
+            <div class="overlay-menu" id="overlay-menu"></div><!--overlay-menu-->
+
+            <nav class="menu-nav">
+                <ul>
+                    <li><a href="erro.html">Categorias</a></li>
+                    <li><a href="erro.html">Ofertas</a></li>
+                    <li><a href="erro.html">Lançamentos</a></li>
+                </ul>
+            </nav>
+        </div>
+    
+        <!-- Logo -->
+        <div class="logo">
+            <a href="home.html">
+                <img class="logo-foto" src="./src/img/Logo-buy-semfundo.png" alt="Logo da agência">
+            </a>
+        </div>
+    
+        <!-- Seção de pesquisa e login -->
+        <div class="actions">
+            <div class="search-bar">
+                <input type="text" class="barra-pesquisa" placeholder="Buscar produtos, lojas...">
+                <button class="btn-pesquisa">
+                    <i class="bi bi-search"></i>
+                </button>
+            </div>
+
+            <div class="btn-login">
+                <a href="login.html">
+                    <button>Login</button>
+                </a>
+            </div>
+
+            <div>
+                <a class="icone-heart" href="favoritos.html"><i class="bi bi-heart"></i></a>
+                <a class="icone-cart" href="carrinho.html"><i class="bi bi-cart2"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="centralizar">
+            <h1>Sua lista de <Span>Desejos</Span></h1>
+            <!-- <p>Seus produtos favoritos ficam aqui para você ver sempre que quiser.</p> -->
+        </div>
+
+        <div class="wishlist">
+            <!-- Produto 1 -->
+        <div class="product-card">
+            <button class="btn-fechar"><i class="bi bi-x-lg"></i></button>
+            <img src="./src/img/produtos/chuteira Adidas.jpeg" alt="Chuteira Adidas">
+            <h2>Chuteira Futsal Adidas Predator Accuracy P4 Unissex</h2>
+            <p class="old-price">R$ 399,99</p>
+            <p class="current-price">R$ 164,99</p>
+            <p>ou 3x de R$ 55,00 sem juros</p>
+            <select>
+                <option>Selecione</option>
+                <option>39</option>
+                <option>40</option>
+                <option>41</option>
+            </select>
+            <button class="add-carrinho">Adicionar ao Carrinho</button>
+            </div>
+    
+            <!-- Produto 2 -->
+            <div class="product-card">
+            <button class="btn-fechar"><i class="bi bi-x-lg"></i></button>
+            <img src="./src/img/produtos/chuteria Puma.jpg" alt="Chuteira Puma">
+            <h2>Chuteira Futsal Puma Future Play Unissex</h2>
+            <p class="old-price">R$ 299,99</p>
+            <p class="current-price">R$ 161,49 no Pix</p>
+            <p>ou 3x de R$ 56,66 sem juros</p>
+            <select>
+                <option>Selecione</option>
+                <option>39</option>
+                <option>40</option>
+                <option>41</option>
+            </select>
+            <button class="add-carrinho">Adicionar ao Carrinho</button>
+            </div>
+    
+            <!-- Produto 3 -->
+            <div class="product-card">
+            <button class="btn-fechar"><i class="bi bi-x-lg"></i></button>
+            <img src="./src/img/produtos/camisa Palmeiras.jpeg" alt="Camisa Palmeiras">
+            <h2>Camisa Palmeiras I 24/25 sn° Torcedor Puma Masculina</h2>
+            <p class="old-price">R$ 369,90</p>
+            <p class="current-price">R$ 199,99</p>
+            <select>
+                <option>Selecione</option>
+                <option>P</option>
+                <option>M</option>
+                <option>G</option>
+            </select>
+            <button class="add-carrinho">Adicionar ao Carrinho</button>
+            </div>
+    
+            <!-- Produto 4 -->
+            <div class="product-card">
+            <button class="btn-fechar"><i class="bi bi-x-lg"></i></button>
+            <img src="./src/img/produtos/calça cargo.jpeg" alt="Calça Moletom">
+            <h2>Calça de Moletom Masculina Slim Sport Academia Wooks-PRETO-GG</h2>
+            <p class="old-price">R$ 89,90</p>
+            <p class="current-price">R$ 76,41 à vista</p>
+            <select>
+                <option>Selecione</option>
+                <option>P</option>
+                <option>M</option>
+                <option>G</option>
+            </select>
+            <button class="add-carrinho">Adicionar ao Carrinho</button>
+            </div>
+    
+            <!-- Produto 5 -->
+            <div class="product-card">
+            <button class="btn-fechar"><i class="bi bi-x-lg"></i></button>
+            <img src="./src/img/produtos/chuteira Nike.jpeg" alt="Chuteira Nike">
+            <h2>Chuteira Nike Phantom GX Club Futsal</h2>
+            <p class="old-price">R$ 449,99</p>
+            <p class="current-price">R$ 218,49 no Pix</p>
+            <select>
+                <option>Selecione</option>
+                <option>37</option>
+                <option>38</option>
+                <option>39</option>
+                <option>40</option>
+            </select>
+            <button class="add-carrinho">Adicionar ao Carrinho</button>
+            </div>
+    
+            <!-- Produto 6 -->
+            <div class="product-card">
+            <button class="btn-fechar"><i class="bi bi-x-lg"></i></button>
+            <img src="./src/img/produtos/camisa da alemanha.jpg" alt="Camisa Alemanha">
+            <h2>Camisa Seleção Alemanha 1 24 Adidas Masculina</h2>
+            <p class="old-price"></p>
+            <p class="current-price">R$ 379,90</p>
+            <select>
+                <option>Selecione</option>
+                <option>P</option>
+                <option>M</option>
+                <option>G</option>
+                <option>GG</option>
+            </select>
+            <button class="add-carrinho">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
